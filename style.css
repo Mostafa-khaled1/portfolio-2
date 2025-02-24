@@ -451,7 +451,6 @@ textarea {
     /* display: block; */
   }
   textarea {
-    margin-top: 20px;
     height: 100%;
   }
 }
@@ -542,6 +541,17 @@ textarea {
   .services {
     padding-bottom: 7rem;
   }
+  .services-box {
+    padding: 1rem; /* تقليل قيمة padding للشاشات الصغيرة */
+    font-size: 0.9rem; /* تصغير حجم الخط */
+    line-height: 1.2rem;
+    text-align: center;
+  }
+  .testimonials-item p {
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    line-height: 21px;
+  }
   .testimonials .wrapper {
     grid-template-columns: repeat(1, 1fr);
     justify-self: center;
@@ -592,6 +602,7 @@ textarea {
   .home-content p {
     max-width: 600px;
     margin: 0 auto;
+    font-size: 16px;
   }
   .home-img img {
     width: 54vw;

@@ -1,13 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
   var typed = new Typed(".typed", {
-    strings: [
-      "Frontend Designer.",
-      "Web Developer.",
-      "Software Tester",
-      "UI/UX Designer",
-      "Web Designer",
-    ],
-    typeSpeed: 80,
+    strings: ["Frontend Designer.", "React Developer", "Web Developer."],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: true,
+    loopCount: Infinity,
   });
 });
 
